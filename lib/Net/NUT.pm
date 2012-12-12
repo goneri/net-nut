@@ -95,6 +95,26 @@ __END__
 
 Net::NUT - Network UPS Tools (NUT) client
 
+The primary goal of the Network UPS Tools (NUT) project is to provide support for
+Power Devices, such as Uninterruptible Power Supplies, Power Distribution Units and Solar Controllers.
+
+NUT provides many control and monitoring features, with a uniform control and management interface.
+
+More than 100 different manufacturers, and several thousands models are compatible.
+
+This software is the combined effort of many individuals and companies.
+
+
+http://www.networkupstools.org/
+
+Net::NUT only cover a limited subset of NUT features (read only access).
+
+=head1 COPYRIGHT
+
+Copyright (C) 2012 Gonéri Le Bouder. All rights reserved.
+
+This library is free software. You can modify and/or distribute it under the same terms as Perl itself.
+
 =head1 METHODS
 
 =head2 new(%params)
@@ -108,3 +128,7 @@ Returns a list of Net::NUT::UPS object.
 =head2 getDevice($name)
 
 Returns a Net::NUT::UPS object named $name or undef.
+
+=head1 AUTHOR
+
+Gonéri Le Bouder <goneri@rulezlan.org>
