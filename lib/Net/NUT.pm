@@ -104,12 +104,12 @@ NUT provides many control and monitoring features, with a uniform control and ma
 
 More than 100 different manufacturers, and several thousands models are compatible.
 
-This software is the combined effort of many individuals and companies.
-
-
 http://www.networkupstools.org/
 
-Net::NUT only cover a limited subset of NUT features (read only access).
+Net::NUT aims to be simple client for NUT server. Unlike UPS::Nut, it can give a list of available
+UPS for a give server and has a OOP interface.
+
+It cover a limited subset of NUT features so far (read only access).
 
 =head1 COPYRIGHT
 
