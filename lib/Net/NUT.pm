@@ -129,7 +129,9 @@ Returns a list of Net::NUT::UPS object.
 
 =head2 getDevice($name)
 
-Returns a Net::NUT::UPS object named $name or undef.
+Gets the Net::NUT::UPS object for UPS $name.
+
+Returns undef if $name is not found.
 
 =head1 AUTHOR
 
