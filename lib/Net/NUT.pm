@@ -6,7 +6,7 @@ use warnings;
 use strict;
 use IO::Socket::INET;
 
-our $VERSION = "0.1";
+our $VERSION = "0.0001";
 
 sub new {
     my $class = shift;
